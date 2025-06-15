@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    
+}
+body{
+    background-image: linear-gradient(rgb(58, 196, 250) ,rgb(174, 223, 248));
+    background-size: 100%;
+    position: relative;
+    
+   
+}
+.image{
+  
+    width: 245px;
+	height: 155px;
+	border-radius: 100%;
+	overflow: hidden;
+	margin-left: 6em;
+    justify-content: center;
+    margin-top: 20px;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+ 
+}
+h1{
+    background-image:linear-gradient( dodgerblue, rgb(121, 226, 255));
+    padding: 1px;
+    width: 98%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    position:relative;
+     color:rgb(12, 12, 12);
+    margin:5px;
+    margin-left: 0.1em;
+    margin-right: 0;
+    border: 2px groove #11a3bd;
+    margin-bottom:10px;
+     font-size:1.6em ;
+
+}
+h2{
+  font-size:1.3em ;
+    padding: 3px;
+    width: 90%;
+    text-align: center;
+    position:relative;
+     color:rgb(12, 12, 12);
+    margin:5px;
+    margin-left: 0.9em;
+      margin-right: 0;
+    margin-bottom:1px;
+
+
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+
+
+
+#wrapper{
+    
+    margin-right: 10em;
+    width: 30em;
+    box-shadow: 0 10px 15px rgb(147, 147, 229);
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 25em;
+    max-width: 440px;
+
+}
+.p{
+    margin-top: 2em;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#footer{
+     margin-top: 1em;
+    text-align: center;
+    width: 29em;
+}
+#facebook{
+    color: rgb(69, 69, 253);
+    width: 22em;
+    height: 22em;
+    text-align: center;
+    font-size: 1.6em;
+    
+}
+#instagram{
+     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+     width: 22px;
+    height: 22px;
+     font-size: 1.6em;
+}
+#linkedin{
+    color:rgb(0, 110, 255);
+     width: 22px;
+    height: 22px;
+     font-size: 1.6em;
+}
+#x-twitter{
+    color: black;
+     width: 22px;
+    height: 22px;
+     font-size: 1.6em;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .wrapper {
+    width: 80%;
+    padding: 100%;
+  }
+  main {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  #header, .wrapper, main {
+    width: 100%;
+  }
+}
